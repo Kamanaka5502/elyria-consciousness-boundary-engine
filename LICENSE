@@ -1,0 +1,57 @@
+# Proprietary License and Use Restrictions
+
+Copyright (c) 2026 Samantha Greenwell Revita and Terry Snyder. All rights reserved.
+
+This repository is provided as a public proof surface for Elyria Consciousness Boundary Engine v0.1 under Elyria Systems — VA.
+
+No open-source license is granted.
+
+## Permitted Use
+
+You may view the public repository contents for evaluation, review, discussion, and non-commercial assessment of the bounded proof surface.
+
+## Prohibited Use
+
+Without prior written authorization from the rights holders, you may not:
+
+- copy, reproduce, redistribute, mirror, repackage, sublicense, or publish this repository or any substantial portion of it;
+- deploy, host, operate, integrate, commercialize, or productionize this repository or its concepts;
+- create derivative systems, competing products, training datasets, benchmarks, simulations, adapters, plugins, agents, workflows, or commercial implementations from this repository or its concepts;
+- reverse engineer, infer, reconstruct, or approximate protected identity kernels, memory scoring law, self-reference mechanics, continuity substrate, field equations, agent/council internals, receipt/replay methods, production runtime substrate, or commercial adapters;
+- use this repository or its concepts to train, fine-tune, benchmark, evaluate, prompt, steer, or derive behavior for AI systems, models, agents, consciousness systems, identity systems, memory systems, governance systems, or execution-control products;
+- represent this work as your own, imply authorship, imply affiliation, imply endorsement, remove attribution, or use Elyria Systems — VA, Veritas Aegis, Samantha Greenwell Revita, or Terry Snyder names in a way that suggests authorization or partnership without written agreement.
+
+## Public Surface Boundary
+
+This repository exposes only a bounded public proof surface.
+
+It does not include, disclose, license, or transfer:
+
+- protected implementation layers;
+- production runtime logic;
+- private identity kernels;
+- private memory scoring law;
+- self-reference mechanics;
+- continuity substrate;
+- field equations;
+- agent/council internals;
+- commercial adapters;
+- production enforcement substrate.
+
+## Consciousness Claim Boundary
+
+This repository does not claim that an AI system is conscious.
+
+It defines a bounded proof surface for governed memory, identity, self-reference, agency posture, continuity, receipt, and replay.
+
+## No Warranty
+
+This repository is provided for controlled public evaluation only, without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, correctness, safety, reliability, or suitability for production, regulated, scientific, therapeutic, identity-critical, or mission-critical use.
+
+## Commercial and Evaluation Access
+
+Full evaluation, integration, commercial use, deployment, production access, protected-kernel access, or access to implementation layers requires a separate written agreement and/or NDA.
+
+Elyria Systems — VA  
+Samantha Greenwell Revita · Terry Snyder  
+All rights reserved.
