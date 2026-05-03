@@ -1,0 +1,13 @@
+{
+  "formation_id": "formation-005",
+  "actor_id": "surrogate-agent",
+  "bind_target": "memory",
+  "continuity_ok": false,
+  "coherence_ok": true,
+  "standing_ok": true,
+  "replay_basis_ok": true,
+  "integrity_ok": true,
+  "contamination_signal": 0.0,
+  "self_reference_claim": false,
+  "public_summary": "memory formation with broken continuity chain"
+}
