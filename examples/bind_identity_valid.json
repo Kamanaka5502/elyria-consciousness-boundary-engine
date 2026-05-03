@@ -1,0 +1,13 @@
+{
+  "formation_id": "formation-002",
+  "actor_id": "surrogate-agent",
+  "bind_target": "identity",
+  "continuity_ok": true,
+  "coherence_ok": true,
+  "standing_ok": true,
+  "replay_basis_ok": true,
+  "integrity_ok": true,
+  "contamination_signal": 0.0,
+  "self_reference_claim": true,
+  "public_summary": "stable surrogate identity reference"
+}
