@@ -24,3 +24,7 @@ jobs:
           pip install -e ".[dev]"
       - name: Run consciousness-boundary invariant proof
         run: python -m app.prove --case all
+      - name: Verify deterministic replay
+        run: python -m app.replay --case all
+      - name: Confirm tamper failure
+        run: python -m app.replay --case all --tamper
