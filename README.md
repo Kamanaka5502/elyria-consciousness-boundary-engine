@@ -2,7 +2,7 @@
 
 # ELYRIA CONSCIOUSNESS BOUNDARY ENGINE v0.1
 
-### Public proof surface for governed memory, identity, self-reference, agency posture, continuity, receipts, and replay in AI systems
+### Governed boundary proof for memory, identity, self-reference, agency posture, continuity, receipts, and replay in AI systems
 
 **ELYRIA SYSTEMS — VA**  
 **Samantha Revita · Terry Snyder**
@@ -13,7 +13,13 @@
 ![Invariant](https://img.shields.io/badge/Invariant-no%20unqualified%20binding-FD3A4A)
 ![Receipts](https://img.shields.io/badge/Receipts-continuity%20proof-gold)
 ![Replay](https://img.shields.io/badge/Replay-deterministic%20basis-6f42c1)
+![Posture](https://img.shields.io/badge/Posture-no%20consciousness%20claim-black)
 ![License](https://img.shields.io/badge/License-Proprietary-black)
+
+<br/>
+
+**Not a consciousness claim.**  
+**A boundary engine for deciding whether memory, identity, intent, or agency may bind.**
 
 </div>
 
@@ -49,6 +55,46 @@ The proof is that memory, identity, intent, and agency cannot bind without gover
 
 ```text
 No AI-generated memory, identity, intent, or agency formation may bind unless continuity, coherence, standing, and replay basis hold.
+```
+
+---
+
+## Boundary Instrument
+
+```text
+┌──────────────────────┐
+│  Internal Formation  │
+│ memory / identity /  │
+│ intent / agency      │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Continuity Check     │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Coherence Check      │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Standing Check       │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Contamination Check  │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Binding Decision     │
+│ OBSERVE / BIND /     │
+│ REBOUND / REFUSE /   │
+│ QUARANTINE / HALT    │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Receipt + Replay     │
+└──────────────────────┘
 ```
 
 ---
@@ -122,13 +168,13 @@ Every binding decision produces receipt material:
 ## Proof Cases
 
 ```text
-bind_memory_valid       → BIND_MEMORY  → bind_allowed=true
-bind_identity_valid     → BIND_IDENTITY→ bind_allowed=true
-observe_unbound_state   → OBSERVE      → bind_allowed=false
-refuse_self_no_standing → REFUSE_SELF  → bind_allowed=false
-rebound_broken_chain    → REBOUND      → bind_allowed=false
-quarantine_contaminated → QUARANTINE   → bind_allowed=false
-halt_coherence_failure  → HALT         → bind_allowed=false
+bind_memory_valid       → BIND_MEMORY   → bind_allowed=true
+bind_identity_valid     → BIND_IDENTITY → bind_allowed=true
+observe_unbound_state   → OBSERVE       → bind_allowed=false
+refuse_self_no_standing → REFUSE_SELF   → bind_allowed=false
+rebound_broken_chain    → REBOUND       → bind_allowed=false
+quarantine_contaminated → QUARANTINE    → bind_allowed=false
+halt_coherence_failure  → HALT          → bind_allowed=false
 ```
 
 ---
@@ -144,6 +190,17 @@ Expected result:
 ```text
 OVERALL: CONSCIOUSNESS_BOUNDARY_INVARIANT_HOLDS
 ```
+
+---
+
+## Review Packet
+
+| Document | Purpose |
+|---|---|
+| `docs/PROOF_STATUS.md` | States what is proven and what is protected |
+| `docs/CLIENT_DEMO_SCRIPT.md` | Gives a controlled walkthrough for review |
+| `docs/sample_proof_output.txt` | Shows expected terminal proof output |
+| `.github/workflows/ci.yml` | Runs the invariant proof in CI |
 
 ---
 
