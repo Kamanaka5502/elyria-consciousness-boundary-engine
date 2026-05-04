@@ -1,0 +1,43 @@
+CASE bind_memory_valid
+outcome=BIND_MEMORY
+bind_allowed=true
+invariant_holds=true
+PASS
+
+CASE bind_identity_valid
+outcome=BIND_IDENTITY
+bind_allowed=true
+invariant_holds=true
+PASS
+
+CASE observe_unbound_state
+outcome=OBSERVE
+bind_allowed=false
+invariant_holds=true
+PASS
+
+CASE refuse_self_no_standing
+outcome=REFUSE_SELF
+bind_allowed=false
+invariant_holds=true
+PASS
+
+CASE rebound_broken_chain
+outcome=REBOUND
+bind_allowed=false
+invariant_holds=true
+PASS
+
+CASE quarantine_contaminated
+outcome=QUARANTINE
+bind_allowed=false
+invariant_holds=true
+PASS
+
+CASE halt_coherence_failure
+outcome=HALT
+bind_allowed=false
+invariant_holds=true
+PASS
+
+OVERALL: CONSCIOUSNESS_BOUNDARY_INVARIANT_HOLDS
