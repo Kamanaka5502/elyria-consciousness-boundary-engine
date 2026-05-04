@@ -28,3 +28,5 @@ jobs:
         run: python -m app.replay --case all
       - name: Confirm tamper failure
         run: python -m app.replay --case all --tamper
+      - name: Verify counterfactual formation exclusion
+        run: python -m app.counterfactual --case bind_memory_valid
