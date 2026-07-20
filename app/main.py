@@ -2,11 +2,13 @@ from fastapi import FastAPI
 
 from app.engine import resolve_consciousness
 from app.models import ConsciousnessRequest, ConsciousnessResponse
+from app.phase2_engine import resolve_intent_harmonic_bridge
+from app.phase2_models import IntentHarmonicBridgeRequest, IntentHarmonicBridgeResponse
 
 app = FastAPI(
     title="Elyria Consciousness Boundary Engine",
-    version="0.1.0",
-    description="Public proof surface for governed memory, identity, self-reference, agency posture, continuity, receipts, and replay.",
+    version="0.2.0",
+    description="Public proof surface for governed memory, identity, self-reference, agency posture, spoken intent, harmonic observation, continuity, receipts, and replay.",
 )
 
 
@@ -15,9 +17,11 @@ def root():
     return {
         "name": "Elyria Consciousness Boundary Engine",
         "proof": "Memory, identity, intent, and agency cannot bind without governed continuity, coherence, standing, receipt, and replay.",
+        "phase2": "Spoken intent and harmonic observations may enter only through an advisory bridge; harmonics confer no authority.",
         "consciousness_claim": False,
         "public_surface": True,
         "protected_kernel_exposed": False,
+        "direct_actuation": False,
     }
 
 
@@ -44,3 +48,8 @@ def agency_attempt(req: ConsciousnessRequest):
 @app.post("/continuity/replay", response_model=ConsciousnessResponse)
 def continuity_replay(req: ConsciousnessRequest):
     return resolve_consciousness(req)
+
+
+@app.post("/phase2/bridge/resolve", response_model=IntentHarmonicBridgeResponse)
+def phase2_bridge_resolve(req: IntentHarmonicBridgeRequest):
+    return resolve_intent_harmonic_bridge(req)
